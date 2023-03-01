@@ -13,6 +13,7 @@ victories = [[0, 1, 2],
              [2, 4, 6]]
 
 def print_maps():
+
     print(maps[0], end=" ")
     print(maps[1], end=" ")
     print(maps[2])
@@ -26,10 +27,12 @@ def print_maps():
     print(maps[8])
 
 def step_maps(step, symbol):
+
         ind = maps.index(step)
         maps[ind] = symbol
 
 def get_result():
+
     win = ""
 
     for i in victories:
@@ -65,4 +68,5 @@ while game_over == False:
     player1 = not (player1)
 
 print_maps()
+
 print("Победил", win)
