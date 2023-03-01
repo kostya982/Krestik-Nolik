@@ -40,8 +40,6 @@ def get_result():
 
     return win
 
-
-# Основная программа
 game_over = False
 player1 = True
 
